@@ -11,6 +11,6 @@ services:
    image: bobbypulla/mynewapp:appimage
    container_name: containerapp
    ports:
-     - "1234:8080"
+     - "1400:8080"
    depends_on:
      - "devopsdb"
